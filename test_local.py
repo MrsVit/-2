@@ -51,5 +51,5 @@ for f in request.findings:
     })
 
 print("=" * 60)
-print("📤 Результат (как от /classify):")
+print("Результат (как от /classify):")
 print(json.dumps(results, indent=2, ensure_ascii=False))
