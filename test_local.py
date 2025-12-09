@@ -1,4 +1,3 @@
-# вайбкожено. Потестить решила
 from models import ClassifyRequest, SecretFinding
 from db import init_database, get_active_features, get_active_heuristics, save_classification
 from engine import extract_features
